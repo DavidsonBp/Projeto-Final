@@ -8,7 +8,7 @@ Este é um sistema básico de cadastro escolar desenvolvido para gerenciar aluno
 - Edição de informações de alunos e professores
 - Remoção de alunos e professores do sistema
 
-#Tecnologias usadas no desenvolvimento
+# Tecnologias usadas no desenvolvimento
 -HTML
 -CSS
 -JAVASCRIPT
