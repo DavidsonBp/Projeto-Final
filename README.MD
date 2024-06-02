@@ -9,11 +9,11 @@ Este é um sistema básico de cadastro escolar desenvolvido para gerenciar aluno
 - Remoção de alunos e professores do sistema
 
 # Tecnologias usadas no desenvolvimento
--HTML
--CSS
--JAVASCRIPT
--MYSQL
--PHP
+- HTML
+- CSS
+- JAVASCRIPT
+- MYSQL
+- PHP
 
 # Banco de Dados
 
