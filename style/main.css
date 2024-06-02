@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: URL(../imagens/principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: white;
+    font-family: Arial;
+
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(19, 4, 24, 0.747);
+    color: white;
+    outline: none;
+
+}
+
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form-cad{
+    width: 420px;
+    margin: 40px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form h2, div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #71108e;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+input[type=submit]:hover{
+    background-color: #c11fcf;
+    
+}
+
+::-webkit-input-placeholder { 
+    color: #fff;
+}
+::-moz-placeholder { 
+    color: #fff;
+}
+:-ms-input-placeholder { 
+    color: #fff;
+}
+:-moz-placeholder { 
+    color: #fff;
+}
+
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 139, 34);
+
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgb(165, 42, 42);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.table-container {
+    width: 80%; 
+    margin-top: 20px; 
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: center; 
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ffffff;
+    background-color: #000000ad;
+}
+
+thead th {
+    background-color: #65187c; 
+}
+
+.btn-limpar {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(90, 25, 173);
+    color: white;
+    outline: none;
+}
+
+.btn-limpar:hover {
+    background-color: #8127bd7a; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-editar {
+    display: inline-block; 
+    height: 40px;
+    width: auto;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(87, 41, 172);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.botao-excluir {
+    display: inline-block; 
+    height: 40px;
+    width: auto;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(192, 34, 42, 0.589);
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.botao-cadastrar {
+
+    display: inline-block; 
+    height: 40px;
+    width: auto;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(164, 81, 233);
+    color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+
+}
+
+select {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(35, 33, 37, 0.562);
+    color: white;
+    outline: none;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.btn-menu{
+
+    display: inline-block; 
+      height: 40px;
+      width: auto;
+      margin: 5px;
+      border-radius: 20px;
+      border: none;
+      font-size: 16pt;
+      padding: 10px 20px;
+      background-color: rgb(40, 5, 68);
+      color: rgb(255, 255, 255);
+      outline: none;
+      cursor: pointer;
+  }
