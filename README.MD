@@ -17,6 +17,7 @@ Este é um sistema básico de cadastro escolar desenvolvido para gerenciar aluno
 
 # Banco de Dados
 
+```sql
 CREATE DATABASE IF NOT EXISTS projeto_login;
 USE projeto_login;
 
