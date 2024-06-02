@@ -7,3 +7,12 @@ Este é um sistema básico de cadastro escolar desenvolvido para gerenciar aluno
 - Visualização de lista de alunos e professores cadastrados
 - Edição de informações de alunos e professores
 - Remoção de alunos e professores do sistema
+
+#Tecnologias usadas no desenvolvimento
+-HTML
+-CSS
+-JAVASCRIPT
+-MYSQL
+-PHP
+
+#BANCO DE DADOS
